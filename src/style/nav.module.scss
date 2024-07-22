@@ -1,0 +1,17 @@
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 50px;
+    background: #ffffff;
+    max-width: 1200px;
+    width: 100%;
+    height: 50px;
+    border-radius: 15px;
+    padding: 0px 20px;
+    .link {
+        transition: ease-in-out .2s;
+        color: #000000;
+    }
+}

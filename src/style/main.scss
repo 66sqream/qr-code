@@ -1,0 +1,28 @@
+$bg-gray: #1d1b1b;
+$black: #000000;
+$white: #ffffff;
+
+* {
+    color: $white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    list-style-type: none;
+    outline: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    // height: 100vh;
+    background: $bg-gray;
+    width: 100%;
+}
+
+ #root {
+    width: 100%;
+}

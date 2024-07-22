@@ -1,0 +1,38 @@
+.qrCodeBlock {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
+    width: 100%;
+    .inputBtnBlock {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        width: 100%;
+        input {
+            max-width: 500px;
+            width: 100%;
+            color: #000000;
+            padding: 20px;
+            border-radius: 10px;
+            &::placeholder {
+                color: #000000;
+            }
+        }
+        .btn {
+            max-width: 200px;
+            width: 100%;
+            border-radius: 10px;
+            height: 50px;
+            cursor: pointer;
+            background: #ffffff;
+            color: #000000;
+            transition: .2s ease-in-out;
+            &:hover {
+                background: #000000;
+                color: #ffffff;
+            }
+        }
+    }
+}
